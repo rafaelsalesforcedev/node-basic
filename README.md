@@ -1,4 +1,4 @@
-# Express + Swagger + Conexão banco de dados com PostgreSQL
+# Express + Swagger + Conexão BD com PostgreSQL
 
 No diretório do projeto:
 
