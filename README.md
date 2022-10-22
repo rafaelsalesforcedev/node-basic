@@ -1,5 +1,4 @@
-# Express + Swagger + Conexão banco de dados com PostgreSQL (acesse a documentação do sequelize para conectar em outros bancos)
-Base para iniciar um projeto em nodeJS com express, swagger e conexão com base de dados
+# Express + Swagger + Conexão banco de dados com PostgreSQL
 
 No diretório do projeto:
 
