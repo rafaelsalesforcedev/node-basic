@@ -1,25 +1,27 @@
-# Hello World com Node.js, expressjs, swagger-express-ui e swagger-jsdoc
+# Express + Swagger + Conexão banco de dados com PostgreSQL (acesse a documentação do sequelize para conectar em outros bancos)
+Base para iniciar um projeto em nodeJS com express, swagger e conexão com base de dados
 
-Mostra como criar uma aplicação de exemplo Node.js com [expressjs](http://expressjs.com)
-e [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express)
-para gerar a interface web do Swagger para teste e documentação 
-de APIs REST.
-
-![](swagger-ui.png)
-
-Inclui o módulo [swagger-jsdoc](https://github.com/Surnet/swagger-jsdoc)
-para permitir especificar os endpoints implementados
-com expressjs por meio de comentários [JSDoc](https://jsdoc.app/).
-
-## Instalação
+No diretório do projeto:
 
 ```bash
-npm install
+npm i
 ```
 
-## Execução
+Configure as variaveis de ambiente do seu projeto no arquivo .env, criado na raiz do projeto
 
+```bash
+SECRET=
+user=
+password=
+database=
+usernameDatabase=
+passwordDatabase=
+hostDatabase=
+```
+
+Após os passos acima, inicie o projeto:
 ```bash
 npm start
 ```
-    
+
+Para acessar a documentação do swagger: /api-docs/
